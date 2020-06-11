@@ -1,0 +1,33 @@
+
+
+ 
+            h1 {
+                color: blue;
+                text-align: center;
+            }
+            h2{
+            	color: red;
+            }
+
+            h3 {color :violet;}
+            table{
+            	border:2px solid black;
+            	Color:blue;
+            	background-color: yellow;
+            	width: 90%;
+
+            }
+            th,td{border:2px solid black;
+            	background-color: white;
+            	padding: 5px;
+            }
+            #main{color: grey;
+
+            }
+            .ingles{font-family: Arial, sans-serif;
+
+            }
+            #again{ color: blue;
+
+            }
+           
