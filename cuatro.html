@@ -1,11 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>
-            My Web Page4!
+            OZ contact 
         </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        Hello, world!
+         <a href="index.html"><button type="button" class="btn btn-primary" >Principal</button></a>
+<a href="uno.html"><button type="button"class="btn btn-success">Perfil</button> </a>
+<a href="dos.html"><button type="button" class="btn btn-danger">Servicio</button></a>
+<a href="tres.html"><button type="button" class="btn btn-secondary">media</button></a>
+<br>
+<br>
+<div class="row">
+    <div class="col-lg-6 col-sm-6">
+                    <h1> Datos de contacto </h1>
+                 <form>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer01">Nombre</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationServer02">Apellido</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03">Numero de contacto</label>
+      <input type="number" class="form-control is-invalid" id="validationServer03" required>
+      <div class="invalid-feedback">
+        Proveer algun numero de contacto.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer05">Codigo Postal</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" required>
+      <div class="invalid-feedback">
+        porfavor codigo postal.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Esta deacuerdo ser contactado.
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+                    
+    </div>
+    <div class="col-lg-4 col-sm-6">
+                    <h2>Deje sus datos y lo contactare</h2>
+                <img src="m3.jpeg" height="70%" width="90%">
+    </div>
+</div>
+         <br><input class="btn btn-primary" type="reset" value="Reset"> borrar formulario
     </body>
 </html>

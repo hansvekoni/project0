@@ -1,15 +1,17 @@
 
-
- 
             h1 {
                 color: blue;
                 text-align: center;
             }
+            Font {color:red;
+              font-size: 26px;}
+            p{ text-align:center;
+            font-size: 24px; }
             h2{
             	color: red;
             }
 
-            h3 {color :violet;}
+            h3 {color :brown;}
             table{
             	border:2px solid black;
             	Color:blue;
@@ -17,17 +19,51 @@
             	width: 90%;
 
             }
+            
+            .nav a{
+            float: left;
+            border:3px;
+            padding: 14px 16px;
+            font-size: 17px;
+            }
+            .nav a:hover {
+              background-color: orange;
+              color: black;
+            }
+
             th,td{border:2px solid black;
             	background-color: white;
             	padding: 5px;
             }
-            #main{color: grey;
-
+            #main{color: black;          
             }
             .ingles{font-family: Arial, sans-serif;
 
             }
-            #again{ color: blue;
-
+            
+           button:hover {
+      background-color: orange;
             }
-           
+            ol ul{color:blue;
+            }
+            ol > li {color:red;
+                  font-weight: bold;
+            }
+            
+  @media (min-width: 500px) {
+  body {
+      background-color: lightblue;
+      background-image: "m1.jpeg";
+  }
+  b1::before {
+                    content: "Hello, World!:) welcome to my first page."}
+  }
+  @media (max-width: 499px) {
+  body {
+      background-color: yellow;
+      font-size: 1.125rem;
+}
+b1::before {
+                    content: "My Web Page!"}
+            }
+}

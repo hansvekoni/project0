@@ -1,0 +1,10 @@
+.row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+body{background-color: pink;}
+font{color:red;
+font-style: italic sans-serif;}
+.row{font-style: italic bold;
+color: blue;}
